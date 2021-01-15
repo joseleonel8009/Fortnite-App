@@ -42,7 +42,7 @@ class _MainHomeState extends State<MainHome> {
       appBar: AppBar(
         elevation: 0,
         title: Text(
-          "Tienda de Hoy ${dateTime.format(DateTimeFormats.american)}",
+          "Tienda de Hoy ${dateTime.format("d/m")}",
           style: TextStyle(color: Colors.black),
         ),
         backgroundColor: Colors.transparent,
